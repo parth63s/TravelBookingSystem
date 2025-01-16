@@ -10,7 +10,6 @@ module.exports.index = async (req,res) => {
                 path: "author",
             }
         });
-    console.log(req.query)
     res.render("listing/index.ejs", {allListings, searchText, choice});
 }
 

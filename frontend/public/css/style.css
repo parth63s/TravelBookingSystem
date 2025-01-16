@@ -5,9 +5,10 @@ body {
     min-height: 100vh;
 }
 
-.container {
+.box {
     flex: 1;
-
+    margin-left: 2.5rem !important;
+    margin-right: 2.5rem !important;
 }
 
 .navbar {
@@ -150,9 +151,8 @@ body {
 
 .middle-line {
     border-top: 1.5px solid black;
-    margin-top: 1rem;
-    opacity: 0.2;
-    
+    margin-top: 0.5rem;
+    opacity: 0.1;
 }
 
 
